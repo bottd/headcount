@@ -1,22 +1,22 @@
 import React, { Component } from 'react';
 import './App.css';
 import DistrictRepository from './helper';
-import kinderData from './data/kindergartners_in_full_day_program.js';
+import districtData from './data/kindergartners_in_full_day_program.js';
 import Card from './Card';
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      stats: new DistrictRepository(kinderData).stats
+      repository: new DistrictRepository(districtData)
     }
   }
 
   render() {
-    const locations = Object.keys(this.state.stats);
+    const locations = Object.keys(this.state.repository.stats);
     const cards = locations.map( (place, index) => {
       return (<Card
-        stats={this.state.stats[place]}
+        stats={this.state.repository.stats[place]}
         location={place}
         key={index}/>);
     });

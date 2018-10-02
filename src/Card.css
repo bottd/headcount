@@ -1,0 +1,11 @@
+.DistrictData {
+  width: 20%;
+}
+
+.greater {
+  background-color: green;
+}
+
+.lessThan {
+  background-color: red;
+}
