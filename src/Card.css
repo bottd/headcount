@@ -24,10 +24,8 @@ ul {
   width: 20%;
 }
 
-.greater {
-}
-
-.lessThan {
+.selected {
+  border: 2px solid blue;
 }
 
 .fa-caret-up {
