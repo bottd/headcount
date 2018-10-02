@@ -3,26 +3,39 @@ import './App.css';
 import DistrictRepository from './helper';
 import districtData from './data/kindergartners_in_full_day_program.js';
 import Card from './Card';
+import Search from './Search';
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      repository: new DistrictRepository(districtData)
+      repository: new DistrictRepository(districtData),
+      stats: []
     }
   }
 
+  componentDidMount() {
+    this.filterCards('');
+  }
+
+  filterCards = (search) => {
+    const newStats = this.state.repository.findAllMatches(search);
+    this.setState({stats: newStats});
+  }
+
   render() {
-    const locations = Object.keys(this.state.repository.stats);
-    const cards = locations.map( (place, index) => {
+    const cards = this.state.stats.map( (place, index) => {
       return (<Card
-        stats={this.state.repository.stats[place]}
-        location={place}
+        stats={place.stats}
+        location={place.location}
         key={index}/>);
     });
     return (
-      <div className='Cards'>
-      { cards }
+      <div>
+        <Search filterCards={this.filterCards}/>
+        <div className='Cards'>
+        { cards }
+        </div>
       </div>
     );
   }
