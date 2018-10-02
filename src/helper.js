@@ -9,9 +9,7 @@ export default class DistrictRepository {
       return keyName.toLowerCase().includes(search.toLowerCase());
     });
 
-    if (!searchResult) {
-      return undefined;
-    }
+    if (!searchResult) return undefined;
 
     return {
       location: searchResult,
@@ -39,12 +37,13 @@ export default class DistrictRepository {
     return stats.reduce((acc, data) => {
       if (typeof data.Data != 'number') data.Data = 0;
       const roundedData = Math.round(data.Data * 1000) / 1000;
+      const location = data.Location.toUpperCase();
 
-      if(acc[data.Location]) {
-        acc[data.Location][data.TimeFrame] = roundedData;
+      if(acc[location]) {
+        acc[location][data.TimeFrame] = roundedData;
       }
       else {
-        acc[data.Location.toUpperCase()] = {
+        acc[location] = {
           [data.TimeFrame]: roundedData
         }
       }
