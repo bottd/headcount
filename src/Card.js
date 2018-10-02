@@ -5,9 +5,16 @@ class Card extends Component {
   render() {
     const yearData = Object.keys(this.props.stats).map((year, index) => {
       const percentage = this.props.stats[year];
-      let status = 'greater';
-      if (percentage < 0.5) status = 'lessThan';
+      let status, arrow;
+      if (percentage < 0.5) {
+        status = 'lessThan';
+        arrow = 'fa-caret-down';
+      } else {
+        status = 'greater';
+        arrow = 'fa-caret-up';
+      }
       return(<li key={index} className={status}>
+        <i class={`fas ${arrow}`}></i>
         <span className='year'>{year}: </span>
         <span className='yearValue'>{percentage}</span>
       </li>);
