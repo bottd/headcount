@@ -9,9 +9,7 @@ export default class DistrictRepository {
       return keyName.toLowerCase().includes(search.toLowerCase());
     });
 
-    if (!searchResult) {
-      return undefined;
-    }
+    if (!searchResult) return undefined;
 
     return {
       location: searchResult,
