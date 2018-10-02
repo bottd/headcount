@@ -14,7 +14,7 @@ class Card extends Component {
         arrow = 'fa-caret-up';
       }
       return(<li key={index} className={status}>
-        <i class={`fas ${arrow}`}></i>
+        <i className={`fas ${arrow}`}></i>
         <span className='year'>{year}: </span>
         <span className='yearValue'>{percentage}</span>
       </li>);
