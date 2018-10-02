@@ -1,11 +1,33 @@
+h3 {
+  font-size: 24px;
+  height: 52px;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 0;
+  padding-left: 0;
+}
+
 .DistrictData {
-  width: 20%;
+  border: 5px solid black;
+  padding: 1%;
+  width: 25%;
 }
 
 .greater {
-  background-color: green;
 }
 
 .lessThan {
-  background-color: red;
+}
+
+.fa-caret-up {
+  color: green;
+}
+
+.fa-caret-down {
+  color: red;
 }
