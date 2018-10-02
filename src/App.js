@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import DistrictRepository from './helper';
 import districtData from './data/kindergartners_in_full_day_program.js';
-import Card from './Card';
 import Search from './Search';
+import CardsContainer from './CardsContainer';
 
 class App extends Component {
   constructor() {
@@ -24,18 +24,10 @@ class App extends Component {
   }
 
   render() {
-    const cards = this.state.stats.map( (place, index) => {
-      return (<Card
-        stats={place.stats}
-        location={place.location}
-        key={index}/>);
-    });
     return (
       <div>
         <Search filterCards={this.filterCards}/>
-        <div className='Cards'>
-        { cards }
-        </div>
+        <CardsContainer stats={this.state.stats}/>
       </div>
     );
   }
