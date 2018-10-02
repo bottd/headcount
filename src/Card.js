@@ -2,25 +2,39 @@ import React, { Component } from 'react';
 import './Card.css';
 
 class Card extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      selected: false
+    };
+  }
+
+  selectCard = () => {
+    this.setState({selected: !this.state.selected});
+    this.props.compareCard({
+      location: this.props.location,
+      stats: this.props.stats});
+  }
+
   render() {
     const yearData = Object.keys(this.props.stats).map((year, index) => {
       const percentage = this.props.stats[year];
       let status, arrow;
       if (percentage < 0.5) {
-        status = 'lessThan';
         arrow = 'fa-caret-down';
       } else {
-        status = 'greater';
         arrow = 'fa-caret-up';
       }
       return(<li key={index} className={status}>
-        <i class={`fas ${arrow}`}></i>
+        <i className={`fas ${arrow}`}></i>
         <span className='year'>{year}: </span>
         <span className='yearValue'>{percentage}</span>
       </li>);
     });
+    let className = 'DistrictData';
+    if (this.state.selected) className += ' selected';
     return (
-      <div className='DistrictData'>
+      <div className={className} onClick={this.selectCard}>
         <h3>{this.props.location}</h3>
         <ul className='yearData'>
           {yearData}

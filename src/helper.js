@@ -50,4 +50,20 @@ export default class DistrictRepository {
       return acc;
     }, {});
   }
+
+  getAvg = (district) =>  {
+    const years = Object.keys(this.stats[district]);
+    const avg =  years.reduce((sum, year) => {
+      return sum += this.stats[district][year];
+    }, 0) / 11;
+    return Math.round(avg * 1000) / 1000;
+  }
+
+  compareDistricts(a, b) {
+    const years = Object.keys(this.stats[a]);
+    const avg = years.reduce((sum, year) => {
+      return sum += this.stats[a][year] + this.stats[b][year];
+    }, 0) / 22;
+    return Math.round(avg * 1000) / 1000;
+  }
 }

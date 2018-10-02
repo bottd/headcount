@@ -6,6 +6,7 @@ const CardsContainer = (props) => {
     return (<Card
       stats={place.stats}
       location={place.location}
+      compareCard={props.compareCard}
       key={index}/>);
   });
   return (<div className='Cards'>{cards}</div>);
