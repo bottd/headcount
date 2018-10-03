@@ -20,8 +20,10 @@ class Search extends Component {
 
   render() {
     return (
+      // Search bar was working onKeyUp, however it felt sluggish on the page, I changed to onSubmit
       <form onSubmit={this.handleSubmit}>
         <input
+          //onKeyUp={this.handleSubmit}
           value={this.state.search}
           placeholder='Search by name'
           onChange={this.updateValue}
