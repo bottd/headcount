@@ -22,8 +22,6 @@ class App extends Component {
 
   removeCompare = (location) => {
     const cardToKeep = this.state.compare.filter(card => card.location !== location);
-    console.log(cardToKeep);
-    console.log(location);
     this.setState({compare: cardToKeep});
   }
 
