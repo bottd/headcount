@@ -26,10 +26,12 @@ class App extends Component {
   }
 
   compareCard = (card) => {
-    if (this.state.compare.length >=2) {
-      this.state.compare.slice(1,2);
+    let compare = [];
+    compare.push(card);
+    if (this.state.compare.length > 0) {
+      compare.push(this.state.compare[0]);
     }
-    this.setState({ compare: [...this.state.compare, card] });
+    this.setState({ compare });
   }
 
   render() {
@@ -37,7 +39,8 @@ class App extends Component {
       <div>
         <Search filterCards={this.filterCards}/>
         <CompareContainer
-          getAvg={this.state.repository.getAvg}
+          findAverage={this.state.repository.findAverage}
+          compareDistrictAverages={this.state.repository.compareDistrictAverages}
           stats={this.state.compare}/>
         <CardsContainer
           compareCard={this.compareCard}
