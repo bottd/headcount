@@ -1,24 +1,27 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Card from './Card';
+import './Card.css';
+import './CompareContainer.css';
 
 const CompareContainer = (props) => {
   let locations = [];
-  let cards = props.stats.map((place, index) => {
+  let cards = props.stats.map(place => {
     locations.push(place.location);
     return (<Card
-      className='selected'
       stats={place.stats}
       location={place.location}
-      key={index}/>);
+      key={Math.random()}/>);
   });
   const compare = props.compareDistrictAverages(...locations);
-  const compareCard = Object.keys(compare).map(key => {
-    return (<h3>{`${key}: ${compare[key]}`}</h3>)
+  let compareHeaders = Object.keys(compare).map(key => {
+    return (<h3 key={Math.random()}>{`${key}: ${compare[key]}`}</h3>)
   });
+  let compareCard = (<div className='DistrictData CompareCard' key={Math.random()}>{compareHeaders}</div>);
+
+  cards = [cards[0], compareCard,cards.splice(1,1)];
 
     return (
-      <div>
-        <div> {compareCard} </div>
+      <div className='Cards CompareContainer'>
         {cards}
       </div>);
 }
