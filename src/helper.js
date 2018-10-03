@@ -35,7 +35,7 @@ export default class DistrictRepository {
 
   cleanData(stats) {
     return stats.reduce((acc, data) => {
-      if (typeof data.Data != 'number') data.Data = 0;
+      if (typeof data.Data !== 'number') data.Data = 0;
       const roundedData = Math.round(data.Data * 1000) / 1000;
       const location = data.Location.toUpperCase();
 

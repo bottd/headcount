@@ -10,10 +10,14 @@ class Card extends Component {
   }
 
   selectCard = () => {
-    this.setState({selected: !this.state.selected});
+    if (this.state.selected) {
+      this.props.removeCompare(this.props.location);
+    } else {
     this.props.compareCard({
       location: this.props.location,
       stats: this.props.stats});
+    }
+    this.setState({selected: !this.state.selected});
   }
 
   render() {

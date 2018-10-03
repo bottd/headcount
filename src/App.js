@@ -20,6 +20,13 @@ class App extends Component {
     this.filterCards('');
   }
 
+  removeCompare = (location) => {
+    const cardToKeep = this.state.compare.filter(card => card.location !== location);
+    console.log(cardToKeep);
+    console.log(location);
+    this.setState({compare: cardToKeep});
+  }
+
   filterCards = (search) => {
     const newStats = this.state.repository.findAllMatches(search);
     this.setState({stats: newStats});
@@ -43,6 +50,7 @@ class App extends Component {
           compareDistrictAverages={this.state.repository.compareDistrictAverages}
           stats={this.state.compare}/>
         <CardsContainer
+          removeCompare={this.removeCompare}
           compareCard={this.compareCard}
           stats={this.state.stats}/>
       </div>
