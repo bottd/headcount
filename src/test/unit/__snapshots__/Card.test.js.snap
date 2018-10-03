@@ -1,0 +1,2458 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Should render given District Data 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Card
+    location="COLORADO"
+    stats={
+        Object {
+            "2004": 0.24,
+            "2005": 0.278,
+            "2006": 0.337,
+            "2007": 0.395,
+            "2008": 0.536,
+            "2009": 0.598,
+            "2010": 0.64,
+            "2011": 0.672,
+            "2012": 0.695,
+            "2013": 0.703,
+            "2014": 0.741,
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h3>
+          COLORADO
+</h3>,
+        <ul
+          className="yearData"
+>
+          <li
+                    className={undefined}
+          >
+                    <i
+                              className="fas fa-caret-down"
+                    />
+                    <span
+                              className="year"
+                    >
+                              2004
+                              : 
+                    </span>
+                    <span
+                              className="yearValue"
+                    >
+                              0.24
+                    </span>
+          </li>
+          <li
+                    className={undefined}
+          >
+                    <i
+                              className="fas fa-caret-down"
+                    />
+                    <span
+                              className="year"
+                    >
+                              2005
+                              : 
+                    </span>
+                    <span
+                              className="yearValue"
+                    >
+                              0.278
+                    </span>
+          </li>
+          <li
+                    className={undefined}
+          >
+                    <i
+                              className="fas fa-caret-down"
+                    />
+                    <span
+                              className="year"
+                    >
+                              2006
+                              : 
+                    </span>
+                    <span
+                              className="yearValue"
+                    >
+                              0.337
+                    </span>
+          </li>
+          <li
+                    className={undefined}
+          >
+                    <i
+                              className="fas fa-caret-down"
+                    />
+                    <span
+                              className="year"
+                    >
+                              2007
+                              : 
+                    </span>
+                    <span
+                              className="yearValue"
+                    >
+                              0.395
+                    </span>
+          </li>
+          <li
+                    className={undefined}
+          >
+                    <i
+                              className="fas fa-caret-up"
+                    />
+                    <span
+                              className="year"
+                    >
+                              2008
+                              : 
+                    </span>
+                    <span
+                              className="yearValue"
+                    >
+                              0.536
+                    </span>
+          </li>
+          <li
+                    className={undefined}
+          >
+                    <i
+                              className="fas fa-caret-up"
+                    />
+                    <span
+                              className="year"
+                    >
+                              2009
+                              : 
+                    </span>
+                    <span
+                              className="yearValue"
+                    >
+                              0.598
+                    </span>
+          </li>
+          <li
+                    className={undefined}
+          >
+                    <i
+                              className="fas fa-caret-up"
+                    />
+                    <span
+                              className="year"
+                    >
+                              2010
+                              : 
+                    </span>
+                    <span
+                              className="yearValue"
+                    >
+                              0.64
+                    </span>
+          </li>
+          <li
+                    className={undefined}
+          >
+                    <i
+                              className="fas fa-caret-up"
+                    />
+                    <span
+                              className="year"
+                    >
+                              2011
+                              : 
+                    </span>
+                    <span
+                              className="yearValue"
+                    >
+                              0.672
+                    </span>
+          </li>
+          <li
+                    className={undefined}
+          >
+                    <i
+                              className="fas fa-caret-up"
+                    />
+                    <span
+                              className="year"
+                    >
+                              2012
+                              : 
+                    </span>
+                    <span
+                              className="yearValue"
+                    >
+                              0.695
+                    </span>
+          </li>
+          <li
+                    className={undefined}
+          >
+                    <i
+                              className="fas fa-caret-up"
+                    />
+                    <span
+                              className="year"
+                    >
+                              2013
+                              : 
+                    </span>
+                    <span
+                              className="yearValue"
+                    >
+                              0.703
+                    </span>
+          </li>
+          <li
+                    className={undefined}
+          >
+                    <i
+                              className="fas fa-caret-up"
+                    />
+                    <span
+                              className="year"
+                    >
+                              2014
+                              : 
+                    </span>
+                    <span
+                              className="yearValue"
+                    >
+                              0.741
+                    </span>
+          </li>
+</ul>,
+      ],
+      "className": "DistrictData",
+      "onClick": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "COLORADO",
+        },
+        "ref": null,
+        "rendered": "COLORADO",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li
+              className={undefined}
+>
+              <i
+                            className="fas fa-caret-down"
+              />
+              <span
+                            className="year"
+              >
+                            2004
+                            : 
+              </span>
+              <span
+                            className="yearValue"
+              >
+                            0.24
+              </span>
+</li>,
+            <li
+              className={undefined}
+>
+              <i
+                            className="fas fa-caret-down"
+              />
+              <span
+                            className="year"
+              >
+                            2005
+                            : 
+              </span>
+              <span
+                            className="yearValue"
+              >
+                            0.278
+              </span>
+</li>,
+            <li
+              className={undefined}
+>
+              <i
+                            className="fas fa-caret-down"
+              />
+              <span
+                            className="year"
+              >
+                            2006
+                            : 
+              </span>
+              <span
+                            className="yearValue"
+              >
+                            0.337
+              </span>
+</li>,
+            <li
+              className={undefined}
+>
+              <i
+                            className="fas fa-caret-down"
+              />
+              <span
+                            className="year"
+              >
+                            2007
+                            : 
+              </span>
+              <span
+                            className="yearValue"
+              >
+                            0.395
+              </span>
+</li>,
+            <li
+              className={undefined}
+>
+              <i
+                            className="fas fa-caret-up"
+              />
+              <span
+                            className="year"
+              >
+                            2008
+                            : 
+              </span>
+              <span
+                            className="yearValue"
+              >
+                            0.536
+              </span>
+</li>,
+            <li
+              className={undefined}
+>
+              <i
+                            className="fas fa-caret-up"
+              />
+              <span
+                            className="year"
+              >
+                            2009
+                            : 
+              </span>
+              <span
+                            className="yearValue"
+              >
+                            0.598
+              </span>
+</li>,
+            <li
+              className={undefined}
+>
+              <i
+                            className="fas fa-caret-up"
+              />
+              <span
+                            className="year"
+              >
+                            2010
+                            : 
+              </span>
+              <span
+                            className="yearValue"
+              >
+                            0.64
+              </span>
+</li>,
+            <li
+              className={undefined}
+>
+              <i
+                            className="fas fa-caret-up"
+              />
+              <span
+                            className="year"
+              >
+                            2011
+                            : 
+              </span>
+              <span
+                            className="yearValue"
+              >
+                            0.672
+              </span>
+</li>,
+            <li
+              className={undefined}
+>
+              <i
+                            className="fas fa-caret-up"
+              />
+              <span
+                            className="year"
+              >
+                            2012
+                            : 
+              </span>
+              <span
+                            className="yearValue"
+              >
+                            0.695
+              </span>
+</li>,
+            <li
+              className={undefined}
+>
+              <i
+                            className="fas fa-caret-up"
+              />
+              <span
+                            className="year"
+              >
+                            2013
+                            : 
+              </span>
+              <span
+                            className="yearValue"
+              >
+                            0.703
+              </span>
+</li>,
+            <li
+              className={undefined}
+>
+              <i
+                            className="fas fa-caret-up"
+              />
+              <span
+                            className="year"
+              >
+                            2014
+                            : 
+              </span>
+              <span
+                            className="yearValue"
+              >
+                            0.741
+              </span>
+</li>,
+          ],
+          "className": "yearData",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <i
+                  className="fas fa-caret-down"
+/>,
+                <span
+                  className="year"
+>
+                  2004
+                  : 
+</span>,
+                <span
+                  className="yearValue"
+>
+                  0.24
+</span>,
+              ],
+              "className": undefined,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fas fa-caret-down",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "2004",
+                    ": ",
+                  ],
+                  "className": "year",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "2004",
+                  ": ",
+                ],
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 0.24,
+                  "className": "yearValue",
+                },
+                "ref": null,
+                "rendered": 0.24,
+                "type": "span",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <i
+                  className="fas fa-caret-down"
+/>,
+                <span
+                  className="year"
+>
+                  2005
+                  : 
+</span>,
+                <span
+                  className="yearValue"
+>
+                  0.278
+</span>,
+              ],
+              "className": undefined,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fas fa-caret-down",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "2005",
+                    ": ",
+                  ],
+                  "className": "year",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "2005",
+                  ": ",
+                ],
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 0.278,
+                  "className": "yearValue",
+                },
+                "ref": null,
+                "rendered": 0.278,
+                "type": "span",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <i
+                  className="fas fa-caret-down"
+/>,
+                <span
+                  className="year"
+>
+                  2006
+                  : 
+</span>,
+                <span
+                  className="yearValue"
+>
+                  0.337
+</span>,
+              ],
+              "className": undefined,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fas fa-caret-down",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "2006",
+                    ": ",
+                  ],
+                  "className": "year",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "2006",
+                  ": ",
+                ],
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 0.337,
+                  "className": "yearValue",
+                },
+                "ref": null,
+                "rendered": 0.337,
+                "type": "span",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "3",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <i
+                  className="fas fa-caret-down"
+/>,
+                <span
+                  className="year"
+>
+                  2007
+                  : 
+</span>,
+                <span
+                  className="yearValue"
+>
+                  0.395
+</span>,
+              ],
+              "className": undefined,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fas fa-caret-down",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "2007",
+                    ": ",
+                  ],
+                  "className": "year",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "2007",
+                  ": ",
+                ],
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 0.395,
+                  "className": "yearValue",
+                },
+                "ref": null,
+                "rendered": 0.395,
+                "type": "span",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "4",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <i
+                  className="fas fa-caret-up"
+/>,
+                <span
+                  className="year"
+>
+                  2008
+                  : 
+</span>,
+                <span
+                  className="yearValue"
+>
+                  0.536
+</span>,
+              ],
+              "className": undefined,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fas fa-caret-up",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "2008",
+                    ": ",
+                  ],
+                  "className": "year",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "2008",
+                  ": ",
+                ],
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 0.536,
+                  "className": "yearValue",
+                },
+                "ref": null,
+                "rendered": 0.536,
+                "type": "span",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "5",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <i
+                  className="fas fa-caret-up"
+/>,
+                <span
+                  className="year"
+>
+                  2009
+                  : 
+</span>,
+                <span
+                  className="yearValue"
+>
+                  0.598
+</span>,
+              ],
+              "className": undefined,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fas fa-caret-up",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "2009",
+                    ": ",
+                  ],
+                  "className": "year",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "2009",
+                  ": ",
+                ],
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 0.598,
+                  "className": "yearValue",
+                },
+                "ref": null,
+                "rendered": 0.598,
+                "type": "span",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "6",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <i
+                  className="fas fa-caret-up"
+/>,
+                <span
+                  className="year"
+>
+                  2010
+                  : 
+</span>,
+                <span
+                  className="yearValue"
+>
+                  0.64
+</span>,
+              ],
+              "className": undefined,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fas fa-caret-up",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "2010",
+                    ": ",
+                  ],
+                  "className": "year",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "2010",
+                  ": ",
+                ],
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 0.64,
+                  "className": "yearValue",
+                },
+                "ref": null,
+                "rendered": 0.64,
+                "type": "span",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "7",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <i
+                  className="fas fa-caret-up"
+/>,
+                <span
+                  className="year"
+>
+                  2011
+                  : 
+</span>,
+                <span
+                  className="yearValue"
+>
+                  0.672
+</span>,
+              ],
+              "className": undefined,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fas fa-caret-up",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "2011",
+                    ": ",
+                  ],
+                  "className": "year",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "2011",
+                  ": ",
+                ],
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 0.672,
+                  "className": "yearValue",
+                },
+                "ref": null,
+                "rendered": 0.672,
+                "type": "span",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "8",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <i
+                  className="fas fa-caret-up"
+/>,
+                <span
+                  className="year"
+>
+                  2012
+                  : 
+</span>,
+                <span
+                  className="yearValue"
+>
+                  0.695
+</span>,
+              ],
+              "className": undefined,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fas fa-caret-up",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "2012",
+                    ": ",
+                  ],
+                  "className": "year",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "2012",
+                  ": ",
+                ],
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 0.695,
+                  "className": "yearValue",
+                },
+                "ref": null,
+                "rendered": 0.695,
+                "type": "span",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "9",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <i
+                  className="fas fa-caret-up"
+/>,
+                <span
+                  className="year"
+>
+                  2013
+                  : 
+</span>,
+                <span
+                  className="yearValue"
+>
+                  0.703
+</span>,
+              ],
+              "className": undefined,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fas fa-caret-up",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "2013",
+                    ": ",
+                  ],
+                  "className": "year",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "2013",
+                  ": ",
+                ],
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 0.703,
+                  "className": "yearValue",
+                },
+                "ref": null,
+                "rendered": 0.703,
+                "type": "span",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "10",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <i
+                  className="fas fa-caret-up"
+/>,
+                <span
+                  className="year"
+>
+                  2014
+                  : 
+</span>,
+                <span
+                  className="yearValue"
+>
+                  0.741
+</span>,
+              ],
+              "className": undefined,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fas fa-caret-up",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "2014",
+                    ": ",
+                  ],
+                  "className": "year",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "2014",
+                  ": ",
+                ],
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 0.741,
+                  "className": "yearValue",
+                },
+                "ref": null,
+                "rendered": 0.741,
+                "type": "span",
+              },
+            ],
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h3>
+            COLORADO
+</h3>,
+          <ul
+            className="yearData"
+>
+            <li
+                        className={undefined}
+            >
+                        <i
+                                    className="fas fa-caret-down"
+                        />
+                        <span
+                                    className="year"
+                        >
+                                    2004
+                                    : 
+                        </span>
+                        <span
+                                    className="yearValue"
+                        >
+                                    0.24
+                        </span>
+            </li>
+            <li
+                        className={undefined}
+            >
+                        <i
+                                    className="fas fa-caret-down"
+                        />
+                        <span
+                                    className="year"
+                        >
+                                    2005
+                                    : 
+                        </span>
+                        <span
+                                    className="yearValue"
+                        >
+                                    0.278
+                        </span>
+            </li>
+            <li
+                        className={undefined}
+            >
+                        <i
+                                    className="fas fa-caret-down"
+                        />
+                        <span
+                                    className="year"
+                        >
+                                    2006
+                                    : 
+                        </span>
+                        <span
+                                    className="yearValue"
+                        >
+                                    0.337
+                        </span>
+            </li>
+            <li
+                        className={undefined}
+            >
+                        <i
+                                    className="fas fa-caret-down"
+                        />
+                        <span
+                                    className="year"
+                        >
+                                    2007
+                                    : 
+                        </span>
+                        <span
+                                    className="yearValue"
+                        >
+                                    0.395
+                        </span>
+            </li>
+            <li
+                        className={undefined}
+            >
+                        <i
+                                    className="fas fa-caret-up"
+                        />
+                        <span
+                                    className="year"
+                        >
+                                    2008
+                                    : 
+                        </span>
+                        <span
+                                    className="yearValue"
+                        >
+                                    0.536
+                        </span>
+            </li>
+            <li
+                        className={undefined}
+            >
+                        <i
+                                    className="fas fa-caret-up"
+                        />
+                        <span
+                                    className="year"
+                        >
+                                    2009
+                                    : 
+                        </span>
+                        <span
+                                    className="yearValue"
+                        >
+                                    0.598
+                        </span>
+            </li>
+            <li
+                        className={undefined}
+            >
+                        <i
+                                    className="fas fa-caret-up"
+                        />
+                        <span
+                                    className="year"
+                        >
+                                    2010
+                                    : 
+                        </span>
+                        <span
+                                    className="yearValue"
+                        >
+                                    0.64
+                        </span>
+            </li>
+            <li
+                        className={undefined}
+            >
+                        <i
+                                    className="fas fa-caret-up"
+                        />
+                        <span
+                                    className="year"
+                        >
+                                    2011
+                                    : 
+                        </span>
+                        <span
+                                    className="yearValue"
+                        >
+                                    0.672
+                        </span>
+            </li>
+            <li
+                        className={undefined}
+            >
+                        <i
+                                    className="fas fa-caret-up"
+                        />
+                        <span
+                                    className="year"
+                        >
+                                    2012
+                                    : 
+                        </span>
+                        <span
+                                    className="yearValue"
+                        >
+                                    0.695
+                        </span>
+            </li>
+            <li
+                        className={undefined}
+            >
+                        <i
+                                    className="fas fa-caret-up"
+                        />
+                        <span
+                                    className="year"
+                        >
+                                    2013
+                                    : 
+                        </span>
+                        <span
+                                    className="yearValue"
+                        >
+                                    0.703
+                        </span>
+            </li>
+            <li
+                        className={undefined}
+            >
+                        <i
+                                    className="fas fa-caret-up"
+                        />
+                        <span
+                                    className="year"
+                        >
+                                    2014
+                                    : 
+                        </span>
+                        <span
+                                    className="yearValue"
+                        >
+                                    0.741
+                        </span>
+            </li>
+</ul>,
+        ],
+        "className": "DistrictData",
+        "onClick": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "COLORADO",
+          },
+          "ref": null,
+          "rendered": "COLORADO",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li
+                className={undefined}
+>
+                <i
+                                className="fas fa-caret-down"
+                />
+                <span
+                                className="year"
+                >
+                                2004
+                                : 
+                </span>
+                <span
+                                className="yearValue"
+                >
+                                0.24
+                </span>
+</li>,
+              <li
+                className={undefined}
+>
+                <i
+                                className="fas fa-caret-down"
+                />
+                <span
+                                className="year"
+                >
+                                2005
+                                : 
+                </span>
+                <span
+                                className="yearValue"
+                >
+                                0.278
+                </span>
+</li>,
+              <li
+                className={undefined}
+>
+                <i
+                                className="fas fa-caret-down"
+                />
+                <span
+                                className="year"
+                >
+                                2006
+                                : 
+                </span>
+                <span
+                                className="yearValue"
+                >
+                                0.337
+                </span>
+</li>,
+              <li
+                className={undefined}
+>
+                <i
+                                className="fas fa-caret-down"
+                />
+                <span
+                                className="year"
+                >
+                                2007
+                                : 
+                </span>
+                <span
+                                className="yearValue"
+                >
+                                0.395
+                </span>
+</li>,
+              <li
+                className={undefined}
+>
+                <i
+                                className="fas fa-caret-up"
+                />
+                <span
+                                className="year"
+                >
+                                2008
+                                : 
+                </span>
+                <span
+                                className="yearValue"
+                >
+                                0.536
+                </span>
+</li>,
+              <li
+                className={undefined}
+>
+                <i
+                                className="fas fa-caret-up"
+                />
+                <span
+                                className="year"
+                >
+                                2009
+                                : 
+                </span>
+                <span
+                                className="yearValue"
+                >
+                                0.598
+                </span>
+</li>,
+              <li
+                className={undefined}
+>
+                <i
+                                className="fas fa-caret-up"
+                />
+                <span
+                                className="year"
+                >
+                                2010
+                                : 
+                </span>
+                <span
+                                className="yearValue"
+                >
+                                0.64
+                </span>
+</li>,
+              <li
+                className={undefined}
+>
+                <i
+                                className="fas fa-caret-up"
+                />
+                <span
+                                className="year"
+                >
+                                2011
+                                : 
+                </span>
+                <span
+                                className="yearValue"
+                >
+                                0.672
+                </span>
+</li>,
+              <li
+                className={undefined}
+>
+                <i
+                                className="fas fa-caret-up"
+                />
+                <span
+                                className="year"
+                >
+                                2012
+                                : 
+                </span>
+                <span
+                                className="yearValue"
+                >
+                                0.695
+                </span>
+</li>,
+              <li
+                className={undefined}
+>
+                <i
+                                className="fas fa-caret-up"
+                />
+                <span
+                                className="year"
+                >
+                                2013
+                                : 
+                </span>
+                <span
+                                className="yearValue"
+                >
+                                0.703
+                </span>
+</li>,
+              <li
+                className={undefined}
+>
+                <i
+                                className="fas fa-caret-up"
+                />
+                <span
+                                className="year"
+                >
+                                2014
+                                : 
+                </span>
+                <span
+                                className="yearValue"
+                >
+                                0.741
+                </span>
+</li>,
+            ],
+            "className": "yearData",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <i
+                    className="fas fa-caret-down"
+/>,
+                  <span
+                    className="year"
+>
+                    2004
+                    : 
+</span>,
+                  <span
+                    className="yearValue"
+>
+                    0.24
+</span>,
+                ],
+                "className": undefined,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fas fa-caret-down",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "2004",
+                      ": ",
+                    ],
+                    "className": "year",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "2004",
+                    ": ",
+                  ],
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 0.24,
+                    "className": "yearValue",
+                  },
+                  "ref": null,
+                  "rendered": 0.24,
+                  "type": "span",
+                },
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <i
+                    className="fas fa-caret-down"
+/>,
+                  <span
+                    className="year"
+>
+                    2005
+                    : 
+</span>,
+                  <span
+                    className="yearValue"
+>
+                    0.278
+</span>,
+                ],
+                "className": undefined,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fas fa-caret-down",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "2005",
+                      ": ",
+                    ],
+                    "className": "year",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "2005",
+                    ": ",
+                  ],
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 0.278,
+                    "className": "yearValue",
+                  },
+                  "ref": null,
+                  "rendered": 0.278,
+                  "type": "span",
+                },
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <i
+                    className="fas fa-caret-down"
+/>,
+                  <span
+                    className="year"
+>
+                    2006
+                    : 
+</span>,
+                  <span
+                    className="yearValue"
+>
+                    0.337
+</span>,
+                ],
+                "className": undefined,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fas fa-caret-down",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "2006",
+                      ": ",
+                    ],
+                    "className": "year",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "2006",
+                    ": ",
+                  ],
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 0.337,
+                    "className": "yearValue",
+                  },
+                  "ref": null,
+                  "rendered": 0.337,
+                  "type": "span",
+                },
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "3",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <i
+                    className="fas fa-caret-down"
+/>,
+                  <span
+                    className="year"
+>
+                    2007
+                    : 
+</span>,
+                  <span
+                    className="yearValue"
+>
+                    0.395
+</span>,
+                ],
+                "className": undefined,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fas fa-caret-down",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "2007",
+                      ": ",
+                    ],
+                    "className": "year",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "2007",
+                    ": ",
+                  ],
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 0.395,
+                    "className": "yearValue",
+                  },
+                  "ref": null,
+                  "rendered": 0.395,
+                  "type": "span",
+                },
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "4",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <i
+                    className="fas fa-caret-up"
+/>,
+                  <span
+                    className="year"
+>
+                    2008
+                    : 
+</span>,
+                  <span
+                    className="yearValue"
+>
+                    0.536
+</span>,
+                ],
+                "className": undefined,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fas fa-caret-up",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "2008",
+                      ": ",
+                    ],
+                    "className": "year",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "2008",
+                    ": ",
+                  ],
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 0.536,
+                    "className": "yearValue",
+                  },
+                  "ref": null,
+                  "rendered": 0.536,
+                  "type": "span",
+                },
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "5",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <i
+                    className="fas fa-caret-up"
+/>,
+                  <span
+                    className="year"
+>
+                    2009
+                    : 
+</span>,
+                  <span
+                    className="yearValue"
+>
+                    0.598
+</span>,
+                ],
+                "className": undefined,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fas fa-caret-up",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "2009",
+                      ": ",
+                    ],
+                    "className": "year",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "2009",
+                    ": ",
+                  ],
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 0.598,
+                    "className": "yearValue",
+                  },
+                  "ref": null,
+                  "rendered": 0.598,
+                  "type": "span",
+                },
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "6",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <i
+                    className="fas fa-caret-up"
+/>,
+                  <span
+                    className="year"
+>
+                    2010
+                    : 
+</span>,
+                  <span
+                    className="yearValue"
+>
+                    0.64
+</span>,
+                ],
+                "className": undefined,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fas fa-caret-up",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "2010",
+                      ": ",
+                    ],
+                    "className": "year",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "2010",
+                    ": ",
+                  ],
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 0.64,
+                    "className": "yearValue",
+                  },
+                  "ref": null,
+                  "rendered": 0.64,
+                  "type": "span",
+                },
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "7",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <i
+                    className="fas fa-caret-up"
+/>,
+                  <span
+                    className="year"
+>
+                    2011
+                    : 
+</span>,
+                  <span
+                    className="yearValue"
+>
+                    0.672
+</span>,
+                ],
+                "className": undefined,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fas fa-caret-up",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "2011",
+                      ": ",
+                    ],
+                    "className": "year",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "2011",
+                    ": ",
+                  ],
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 0.672,
+                    "className": "yearValue",
+                  },
+                  "ref": null,
+                  "rendered": 0.672,
+                  "type": "span",
+                },
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "8",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <i
+                    className="fas fa-caret-up"
+/>,
+                  <span
+                    className="year"
+>
+                    2012
+                    : 
+</span>,
+                  <span
+                    className="yearValue"
+>
+                    0.695
+</span>,
+                ],
+                "className": undefined,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fas fa-caret-up",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "2012",
+                      ": ",
+                    ],
+                    "className": "year",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "2012",
+                    ": ",
+                  ],
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 0.695,
+                    "className": "yearValue",
+                  },
+                  "ref": null,
+                  "rendered": 0.695,
+                  "type": "span",
+                },
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "9",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <i
+                    className="fas fa-caret-up"
+/>,
+                  <span
+                    className="year"
+>
+                    2013
+                    : 
+</span>,
+                  <span
+                    className="yearValue"
+>
+                    0.703
+</span>,
+                ],
+                "className": undefined,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fas fa-caret-up",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "2013",
+                      ": ",
+                    ],
+                    "className": "year",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "2013",
+                    ": ",
+                  ],
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 0.703,
+                    "className": "yearValue",
+                  },
+                  "ref": null,
+                  "rendered": 0.703,
+                  "type": "span",
+                },
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "10",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <i
+                    className="fas fa-caret-up"
+/>,
+                  <span
+                    className="year"
+>
+                    2014
+                    : 
+</span>,
+                  <span
+                    className="yearValue"
+>
+                    0.741
+</span>,
+                ],
+                "className": undefined,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fas fa-caret-up",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "2014",
+                      ": ",
+                    ],
+                    "className": "year",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "2014",
+                    ": ",
+                  ],
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 0.741,
+                    "className": "yearValue",
+                  },
+                  "ref": null,
+                  "rendered": 0.741,
+                  "type": "span",
+                },
+              ],
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
