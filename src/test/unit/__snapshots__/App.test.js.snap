@@ -22,7 +22,8 @@ ShallowWrapper {
           filterCards={[Function]}
 />,
         <CompareContainer
-          getAvg={[Function]}
+          compareDistrictAverages={[Function]}
+          findAverage={[Function]}
           stats={Array []}
 />,
         <CardsContainer
@@ -2948,7 +2949,8 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "getAvg": [Function],
+          "compareDistrictAverages": [Function],
+          "findAverage": [Function],
           "stats": Array [],
         },
         "ref": null,
@@ -5878,7 +5880,8 @@ ShallowWrapper {
             filterCards={[Function]}
 />,
           <CompareContainer
-            getAvg={[Function]}
+            compareDistrictAverages={[Function]}
+            findAverage={[Function]}
             stats={Array []}
 />,
           <CardsContainer
@@ -8804,7 +8807,8 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "getAvg": [Function],
+            "compareDistrictAverages": [Function],
+            "findAverage": [Function],
             "stats": Array [],
           },
           "ref": null,
