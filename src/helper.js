@@ -51,7 +51,7 @@ export default class DistrictRepository {
     }, {});
   }
 
-  getAvg = (district) =>  {
+  findAverage = (district) =>  {
     const years = Object.keys(this.stats[district]);
     const avg =  years.reduce((sum, year) => {
       return sum += this.stats[district][year];
@@ -59,11 +59,32 @@ export default class DistrictRepository {
     return Math.round(avg * 1000) / 1000;
   }
 
-  compareDistricts(a, b) {
+  compareDistrictAverages(a, b) {
+    a = a.toUpperCase();
+    b = b.toUpperCase();
+    const avgA = this.findAverage(a);
+    const avgB = this.findAverage(b);
     const years = Object.keys(this.stats[a]);
+    const sumA = years.reduce((sum, year) => {
+      return sum += this.stats[a][year]
+    }, 0);
+    const sumB = years.reduce((sum, year) => {
+      return sum += this.stats[b][year]
+    }, 0);
+    const sumSqA = years.reduce((sum, year) => {
+      return sum += this.stats[a][year] * this.stats[a][year];
+    }, 0);
+    const sumSqB = years.reduce((sum, year) => {
+      return sum += this.stats[b][year] * this.stats[b][year];
+    }, 0);
+
     const avg = years.reduce((sum, year) => {
       return sum += this.stats[a][year] + this.stats[b][year];
     }, 0) / 22;
-    return Math.round(avg * 1000) / 1000;
+    return {
+      [a]: avgA,
+      compared: Math.round((avgA / avgB) * 1000) / 1000,
+      [b]: avgB
+    }
   }
 }
