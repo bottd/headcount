@@ -22,10 +22,22 @@ describe('Card', () => {
     }
     wrapper = shallow(<Card
       location={location}
+      compareCard={jest.fn()}
+      removeCompare={jest.fn()}
       stats={stats} />);
   });
 
   it('Should render given District Data', () => {
     expect(wrapper).toMatchSnapshot()
+  });
+
+  it('Should be selected on click', () => {
+    wrapper.simulate('click');
+    expect(wrapper.hasClass('selected'));
+  });
+  it('Should be able to be unselected', () => {
+    wrapper.simulate('click');
+    wrapper.simulate('click');
+    expect(!wrapper.hasClass('selected'));
   });
 });
