@@ -31,7 +31,7 @@ const CompareContainer = (props) => {
 };
 
 CompareContainer.propTypes = {
-  stats: PropTypes.object,
+  stats: PropTypes.array,
   compareDistrictAverages: PropTypes.func
 };
 
