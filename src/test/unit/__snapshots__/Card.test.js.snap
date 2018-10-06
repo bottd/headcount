@@ -4,7 +4,9 @@ exports[`Card Should render given District Data 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Card
+    compareCard={[Function]}
     location="COLORADO"
+    removeCompare={[Function]}
     stats={
         Object {
             "2004": 0.24,

@@ -13,7 +13,7 @@ class App extends Component {
       repository: new DistrictRepository(districtData),
       stats: [],
       compare: []
-    }
+    };
   }
 
   componentDidMount() {
@@ -21,7 +21,9 @@ class App extends Component {
   }
 
   removeCompare = (location) => {
-    const cardToKeep = this.state.compare.filter(card => card.location !== location);
+    const cardToKeep = this.state.compare.filter(card => {
+      return card.location !== location;
+    });
     this.setState({compare: cardToKeep});
   }
 
@@ -40,17 +42,17 @@ class App extends Component {
   }
 
   render() {
+    const { repository, compare, stats } = this.state;
     return (
       <div>
         <Search filterCards={this.filterCards}/>
         <CompareContainer
-          findAverage={this.state.repository.findAverage}
-          compareDistrictAverages={this.state.repository.compareDistrictAverages}
-          stats={this.state.compare}/>
+          compareDistrictAverages={repository.compareDistrictAverages}
+          stats={compare}/>
         <CardsContainer
           removeCompare={this.removeCompare}
           compareCard={this.compareCard}
-          stats={this.state.stats}/>
+          stats={stats}/>
       </div>
     );
   }

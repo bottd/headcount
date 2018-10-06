@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import './Card.css';
 
 class Card extends Component {
@@ -13,9 +14,9 @@ class Card extends Component {
     if (this.state.selected) {
       this.props.removeCompare(this.props.location);
     } else {
-    this.props.compareCard({
-      location: this.props.location,
-      stats: this.props.stats});
+      this.props.compareCard({
+        location: this.props.location,
+        stats: this.props.stats});
     }
     this.setState({selected: !this.state.selected});
   }
@@ -29,7 +30,7 @@ class Card extends Component {
       } else {
         arrow = 'fa-caret-up';
       }
-      return(<li key={index} className={status}>
+      return (<li key={index} className={status}>
         <i className={`fas ${arrow}`}></i>
         <span className='year'>{year}: </span>
         <span className='yearValue'>{percentage}</span>
@@ -47,5 +48,12 @@ class Card extends Component {
     );
   }
 }
+
+Card.propTypes = {
+  stats: PropTypes.object,
+  location: PropTypes.string,
+  removeCompare: PropTypes.func,
+  compareCard: PropTypes.func
+};
 
 export default Card;

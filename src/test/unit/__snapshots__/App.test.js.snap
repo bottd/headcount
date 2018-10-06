@@ -28,6 +28,7 @@ ShallowWrapper {
 />,
         <CardsContainer
           compareCard={[Function]}
+          removeCompare={[Function]}
           stats={
                     Array [
                               Object {
@@ -2963,6 +2964,7 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "compareCard": [Function],
+          "removeCompare": [Function],
           "stats": Array [
             Object {
               "location": "COLORADO",
@@ -5886,6 +5888,7 @@ ShallowWrapper {
 />,
           <CardsContainer
             compareCard={[Function]}
+            removeCompare={[Function]}
             stats={
                         Array [
                                     Object {
@@ -8821,6 +8824,7 @@ ShallowWrapper {
           "nodeType": "function",
           "props": Object {
             "compareCard": [Function],
+            "removeCompare": [Function],
             "stats": Array [
               Object {
                 "location": "COLORADO",

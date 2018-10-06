@@ -18,7 +18,7 @@ export default class DistrictRepository {
   }
 
   findAllMatches(search) {
-    if(!search) search = ''
+    if (!search) search = '';
     const searchResults = Object.keys(this.stats).filter(keyName => {
       return keyName.toLowerCase().includes(search.toLowerCase());
     });
@@ -27,7 +27,7 @@ export default class DistrictRepository {
       return {
         location: result,
         stats: this.stats[result]
-      }
+      };
     });
 
     return resultData;
@@ -39,13 +39,12 @@ export default class DistrictRepository {
       const roundedData = Math.round(data.Data * 1000) / 1000;
       const location = data.Location.toUpperCase();
 
-      if(acc[location]) {
+      if (acc[location]) {
         acc[location][data.TimeFrame] = roundedData;
-      }
-      else {
+      } else {
         acc[location] = {
           [data.TimeFrame]: roundedData
-        }
+        };
       }
       return acc;
     }, {});
@@ -59,21 +58,21 @@ export default class DistrictRepository {
     return Math.round(avg * 1000) / 1000;
   }
 
-  compareDistrictAverages(a, b) {
+  compareDistrictAverages = (locA, locB) => {
     let avgA = 0;
     let avgB = 0;
-    if (a) {
-      a = a.toUpperCase();
-      avgA = this.findAverage(a);
+    if (locA) {
+      locA = locA.toUpperCase();
+      avgA = this.findAverage(locA);
     }
-    if (b) {
-      b = b.toUpperCase();
-      avgB = this.findAverage(b);
+    if (locB) {
+      locB = locB.toUpperCase();
+      avgB = this.findAverage(locB);
     }
     return {
-      [a]: avgA,
+      [locA]: avgA,
       compared: Math.round((avgA / avgB) * 1000) / 1000,
-      [b]: avgB
-    }
+      [locB]: avgB
+    };
   }
 }
