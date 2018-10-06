@@ -35,6 +35,7 @@ describe('Card', () => {
     wrapper.simulate('click');
     expect(wrapper.hasClass('selected'));
   });
+
   it('Should be able to be unselected', () => {
     wrapper.simulate('click');
     wrapper.simulate('click');
