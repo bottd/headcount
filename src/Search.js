@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import './Search.css';
 
 class Search extends Component {
@@ -6,21 +7,22 @@ class Search extends Component {
     super();
     this.state = {
       search: ''
-    }
+    };
   }
 
-  handleSubmit = (e) => {
-    e.preventDefault();
+  handleSubmit = (event) => {
+    event.preventDefault();
     this.props.filterCards(this.state.search);
   }
 
-  updateValue = (e) => {
-    this.setState({search: e.target.value});
+  updateValue = (event) => {
+    this.setState({search: event.target.value});
   }
 
   render() {
     return (
-      // Search bar was working onKeyUp, however it felt sluggish on the page, I changed to onSubmit
+      // Search bar was working onKeyUp,
+      // however it felt sluggish on the page, I changed to onSubmit
       <form onSubmit={this.handleSubmit}>
         <input
           //onKeyUp={this.handleSubmit}
@@ -30,8 +32,12 @@ class Search extends Component {
         />
         <button>Search</button>
       </form>
-    )
+    );
   }
 }
+
+Search.propTypes = {
+  filterCards: PropTypes.func
+};
 
 export default Search;
